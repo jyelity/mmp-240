@@ -15,7 +15,13 @@ h1, h2{
   font-family:'Space Grotesk', sans-serif;
   color: lightblue;
 }
-
+#wrapper{
+  max-width: 960px;
+  padding:16px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #ffe8f4;
+}
 h1{
   font-size:2.5rem;
   margin-bottom: 1em;
