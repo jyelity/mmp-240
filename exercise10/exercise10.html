@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>exercise10</title>
+  <style>
+
+*{
+  margin:0;
+  padding:0;
+}
+
+    .dropdown-menu{
+      display:none;
+    }
+
+.dropdown-link:hover ul{
+      display:block;
+    }
+
+.menu li{
+  /* height:32px; */
+  border-bottom:solid 1px #000;
+  list-style-type: none;
+  background-color:#ccc;
+
+}
+.dropdown-link img{
+  float:right;
+  width:20px;
+}
+
+.dropdown-link a{
+  color: #000;
+  text-decoration:none;
+  display:block;
+  padding:0.5em;
+  padding-top:1em;
+  padding-bottom:0.5em;
+}
+.dropdown-menu li{
+  background-color: #999
+}
+a:hover{
+  text-decoration: underline;
+}
+    </style>
+
+</head>
+<body>
+
+
+    <ul class="menu">
+    <li class="dropdown-link"><a href="">Fruits <img src="https://img.icons8.com/ios-filled/26/000000/chevron-down.png" alt=""></a>
+    <ul class="dropdown-menu">
+    <li><a href="#">Apples</a></li>
+    <li><a href="#">Oranges</a></li>
+    <li><a href="#">Pears</a></li>
+    </ul>
+    </li>
+    <li class="dropdown-link"><a href="">Vegetables <img src="https://img.icons8.com/ios-filled/26/000000/chevron-down.png" alt=""></a>
+    <ul class="dropdown-menu">
+    <li><a href="#">Carrots</a></li>
+    <li><a href="#">Beets</a></li>
+    <li><a href="#">Spinach</a></li>
+    </ul>
+    </li>
+  </ul>
+</body>
+</html>
